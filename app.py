@@ -30,11 +30,12 @@ DATA_DIR.mkdir(exist_ok=True)
 PROFILE_IMAGE_FILE = Path("/assets/profile.jpg")
 
 # Finder / Memories pictures — replace these 4 paths with your real picture paths
+
 MEMORY_IMAGE_FILES = [
-    Path("/assets/memory1.jpg"),
-    Path("/assets/memory2.jpg"),
-    Path("/assets/memory3.jpg"),
-    Path("/assets/profile.jpg"),
+    Path("memory1.jpg"),
+    Path("memory2.jpg"),
+    Path("memory3.jpg"),
+    Path("profile.png"),
 ]
 
 
