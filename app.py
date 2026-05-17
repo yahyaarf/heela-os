@@ -27,7 +27,7 @@ DATA_DIR = Path("data")
 DATA_DIR.mkdir(exist_ok=True)
 
 # Main profile picture top-left
-PROFILE_IMAGE_FILE = Path("/assets/profile.jpg")
+PROFILE_IMAGE_FILE = Path("profile.png")
 
 # Finder / Memories pictures — replace these 4 paths with your real picture paths
 
