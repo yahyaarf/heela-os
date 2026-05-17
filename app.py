@@ -20,14 +20,14 @@ DATA_DIR = Path("data")
 DATA_DIR.mkdir(exist_ok=True)
 
 # Main profile picture top-left
-PROFILE_IMAGE_FILE = Path("/Users/macbookair/Desktop/heela app/Screenshot_2026-05-17_at_10.34.23_PM-removebg-preview.png")
+PROFILE_IMAGE_FILE = Path("profile.png")
 
 # Finder / Memories pictures — replace these 4 paths with your real picture paths
 MEMORY_IMAGE_FILES = [
-    Path("/Users/macbookair/Desktop/heela app/memory1.png"),
-    Path("/Users/macbookair/Desktop/heela app/memory2.png"),
-    Path("/Users/macbookair/Desktop/heela app/memory3.png"),
-    Path("/Users/macbookair/Desktop/heela app/memory4.png"),
+    Path("memory1.jpg"),
+    Path("memory2.jpg"),
+    Path("memory2.jpg"),
+    Path("profile.png"),
 ]
 
 
